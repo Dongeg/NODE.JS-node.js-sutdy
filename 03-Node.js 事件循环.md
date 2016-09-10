@@ -25,5 +25,8 @@ Node.js 有多个内置的事件，我们可以通过引入 events 模块，并�
 var events = require('events');
 // 创建 eventEmitter 对象
 var eventEmitter = new events.EventEmitter();
-
+// 绑定事件及事件的处理程序
+eventEmitter.on('eventName', eventHandler);
+// 触发事件
+eventEmitter.emit('eventName');
 ```
