@@ -12,7 +12,7 @@ hello woeld
 同步读取
 server.js
 ```javascript
-var fs=require("fs);
+var fs=require("fs");
 var data=fs.readFileSync('input.txt');
 console.log(data.toString());
 console.log("i am running");
