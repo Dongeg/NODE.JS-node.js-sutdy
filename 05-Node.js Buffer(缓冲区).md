@@ -102,29 +102,11 @@ console.log("buffer2 content: " + buffer2.toString());//buffer2 content: ABC
 buf.slice([start[, end]])
 ```
 ```javascropt
-
+var buffer1=new Buffer('0123456879');
+var buffer2=buffer1.slice(0,3);
+console.log("buffer2 content: " + buffer2.toString());//012
 ```
-<h3></h3>
+<h3>缓冲区长度</h3>
 ```javascript
-
-```
-<h3></h3>
-```javascript
-
-```
-<h3></h3>
-```javascript
-
-```
-<h3></h3>
-```javascript
-
-```
-<h3></h3>
-```javascript
-
-```
-<h3></h3>
-```javascript
-
+buf.length;
 ```
