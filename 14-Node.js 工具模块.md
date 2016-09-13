@@ -116,7 +116,18 @@ joint path : /test/test1/2slashes/1slash
 resolve : /web/com/1427176256_27423/main.js
 ext name : .js
 ```
+<a href="http://www.runoob.com/nodejs/nodejs-net-module.html">	Net 模块</a>
 
+用于底层的网络通信。提供了服务端和客户端的的操作。
+
+
+<a href="http://www.runoob.com/nodejs/nodejs-dns-module.html">DNS 模块</a>
+
+用于解析域名。
+
+
+<a href="http://www.runoob.com/nodejs/nodejs-domain-module.html">	Domain 模块</a>
+简化异步代码的异常处理，可以捕捉处理try catch无法捕捉的。
 
 
 
