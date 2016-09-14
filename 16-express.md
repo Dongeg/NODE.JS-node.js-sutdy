@@ -15,3 +15,4 @@ $ express -e
 ```
 $ npm install
 ```
+5.然后你就能正常使用啦
