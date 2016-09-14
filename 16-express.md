@@ -1,4 +1,4 @@
-<h3>express使用说明<h3>
+<h3>express使用说明</h3>
 1.全局安装express-generator
 ```
 $ npm install express-generator -g
