@@ -1,6 +1,6 @@
 <h3>url模块</h3>
 url中有如下几个方法可以调用
-```bash
+```{r, engine='bash', count_lines}
 $ node
 > url
 { parse: [Function: urlParse],
@@ -12,7 +12,7 @@ $ node
 ```
 url.parse()用于地址解析
 
-```
+```{r, engine='bash', count_lines}
 $ node
 > url.parse('https://github.com/Dongeg/node.js/tree/master')
 Url {
@@ -31,7 +31,7 @@ Url {
 
 ```
 example2
-```
+```{r, engine='bash', count_lines}
 $ node
 
 > url.parse('https://github.com:8080/Dongeg/node.js/tree/master?id
