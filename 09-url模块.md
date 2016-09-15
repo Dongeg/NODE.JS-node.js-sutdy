@@ -13,7 +13,7 @@ $ node
 ```
 url.parse()用于地址解析
 
-```{r, engine='bash', count_lines}
+```shell
 $ node
 > url.parse('https://github.com/Dongeg/node.js/tree/master')
 Url {
