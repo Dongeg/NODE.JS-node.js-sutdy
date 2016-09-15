@@ -7,7 +7,7 @@ $ npm install express-generator -g
 ```
 cd /c/demo/demo
 ```
-3.本地安装express
+3.本地安装express(默认为jade模板加了 -e后缀则安装ejs模板引擎)
 ```
 $ express -e
 ```
