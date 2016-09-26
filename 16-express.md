@@ -16,3 +16,17 @@ $ express -e
 $ npm install
 ```
 5.然后你就能正常使用啦
+
+6.安装supervisor
+
+每次代码改动都需要重启 node！不过安装 npm install supervisor 后可以偷懒；它会在你每次修改完代码后自动重启。 神器哦！
+
+```
+npm install supervisor -g
+```
+安装之后进入启动文件目录(bin)，执行
+```
+supervisor -www
+```
+就可以实时监听了
+
